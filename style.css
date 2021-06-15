@@ -65,7 +65,29 @@ hr {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
 }
+@media screen and (min-width: 36em) {
+    .container {
+        max-width: 53.6rem;
+    }
+}
 
+@media screen and (min-width: 48em) {
+    .container {
+        max-width: 72.8rem;
+    }
+}
+
+@media screen and (min-width: 62em) {
+    .container {
+        max-width: 95.2rem;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    .container {
+        max-width: 116rem;
+    }
+}
 
 
 /* Components btn */
@@ -96,7 +118,7 @@ hr {
 
 .btn:hover,
 .btn:focus {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* Header */
@@ -159,7 +181,9 @@ hr {
     gap: 2rem;
     font-size: 1.4rem;
 
+
 }
+
 .product-content{
     display: flex;
     flex-direction: row;
@@ -168,6 +192,7 @@ hr {
     align-items: center;
     text-align: left;
 }
+
 .product-item-desc{
     color: var(--accent);
 }
@@ -186,6 +211,7 @@ hr {
     font-size: 1.4rem;
 
 }
+
 .advantage-item {
     display: flex;
     flex-direction: row;
@@ -199,6 +225,7 @@ hr {
     border-radius: 1.6rem;
 
 }
+
 .advantage-item h2{
     font-size: 2.8rem;
 }
@@ -268,7 +295,7 @@ hr {
 .footer-contact-item{
     
     display: flex;
-    align-items: end;
+    align-items: baseline;
     margin-top: 3rem;
 
 }
@@ -295,6 +322,7 @@ hr {
 }
 .reseau-list{
     display: grid;
+
     grid-template-columns:repeat(3 , 1fr) ;
     column-gap: 1.6rem ;
    
@@ -302,16 +330,21 @@ hr {
 .reseau-item{
     padding: auto;
     margin: auto;
-    border: .1rem solid var(--text);
-    border-radius: 50%;
- 
+    
+
 
 }
-.reseau-item img{
-    height: 1.4rem;
-    width: 1.4rem;  
+
+.reseau-img {
+    height: 3.9rem;
+    width:3.9rem;
+    border: .1rem solid var(--text);
+    border-radius: 50%;
 }
+
+
 .copyright{
+
     grid-column: 3 / span 2;
     grid-row: third-line / 4;
 }
