@@ -232,9 +232,16 @@ hr {
 .advantage-item p{
     font-size: 1.8rem;
 }
+.advantage-item-img{
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    height:36rem;
+    width: 56rem;
 
+}
 
-.advantage-item-illustration img {
+.advantage-item-illustration{
     margin-bottom: 2.4rem;
     margin-left: auto;
     margin-right: auto;
@@ -278,6 +285,7 @@ hr {
 
 }
 
+
 .main-footer .logo {
     width: 16rem;
     height: 2.5rem;
@@ -318,35 +326,23 @@ hr {
     display: grid;
     align-items: center;
     grid-template-columns:repeat(3 , 1fr) ;
-    column-gap: 11.9rem;
+    column-gap:1.6rem;
 }
 .reseau-list{
-    display: grid;
-
-    grid-template-columns:repeat(3 , 1fr) ;
-    column-gap: 1.6rem ;
-   
+    display: flex;
 }
 .reseau-item{
-    padding: auto;
-    margin: auto;
-    
-
-
+    margin-right: 1.6rem;
 }
-
 .reseau-img {
     height: 3.9rem;
     width:3.9rem;
     border: .1rem solid var(--text);
     border-radius: 50%;
 }
-
-
 .copyright{
-
-    grid-column: 3 / span 2;
-    grid-row: third-line / 4;
+    grid-column: 1 / -1;
+    text-align: right;
 }
 
 
